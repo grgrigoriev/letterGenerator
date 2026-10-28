@@ -1,0 +1,21 @@
+{
+  "name": "letter-generator",
+  "version": "1.0.0",
+  "description": "Automated cover letter generator for Russian IT positions",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "cover-letter",
+    "generator",
+    "russian-it"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "pdf-parse": "^1.1.1"
+  }
+}
